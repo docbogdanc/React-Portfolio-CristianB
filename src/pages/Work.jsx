@@ -3,9 +3,10 @@ import Hero from '../components/Hero';
 import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
-import NavbarWork from '../components/NavbarWork';
+// import NavbarWork from '../components/NavbarWork';
 import ProjectGallery from './ProjectGallery';
-import Project from '../components/Project'
+// import Project from '../components/Project'
+import projectData from './projectData.json';
 
 function Work() {
   return (
@@ -25,9 +26,10 @@ function Work() {
             <p>
               projects
               <div>
-                {Project.map((project, index) => (
-                 <Project key={index} project={project} />
-                 ))}
+                <div>
+                  <h1>Project Gallery</h1>
+                  <ProjectGallery projects={projectData} />
+                </div>
               </div>
               {/* <NavbarWork /> */}
             </p>
