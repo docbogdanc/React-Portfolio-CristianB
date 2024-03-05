@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Work from './pages/Work';
 import Navbar from './components/Navbar';
@@ -17,7 +18,7 @@ function App() {
         <Navbar />
         <Wrapper>
           <Routes>
-            <Route path="/" element={<About/>} />
+            <Route path="/" element={<Home/>} />
             <Route path="/About" element={<About/>} />
             <Route path="/Work" element={<Work/>} />
             <Route path="/Contact" element={<Contact/>} />
