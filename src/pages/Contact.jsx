@@ -40,7 +40,7 @@ function Contact() {
               <div className="card">
                 <div className="card-body">
                   <h5 className="card-title">GitHub</h5>
-                  <p className="card-text">docbogdanc</p>
+                  <p className="card-text"><a href="https://github.com/docbogdanc/">docbogdanc</a></p>
                 </div>
               </div>
             </div>
@@ -49,7 +49,7 @@ function Contact() {
               <div className="card">
                 <div className="card-body">
                   <h5 className="card-title">LinkedIn</h5>
-                  <p className="card-text">https://www.linkedin.com/in/cristian-b-2799862b8/</p>
+                  <p className="card-text"><a href="https://www.linkedin.com/in/cristian-b-2799862b8/">CristianB</a></p>
                 </div>
               </div>
             </div>
