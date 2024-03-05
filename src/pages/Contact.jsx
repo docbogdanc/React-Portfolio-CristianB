@@ -4,7 +4,7 @@ import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
 
-function About() {
+function Contact() {
   return (
     <div>
       <Hero backgroundImage="./poza.jpg">
@@ -20,7 +20,7 @@ function About() {
         <Row>
           <Col size="md-12">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              adrese de contact
             </p>
           </Col>
         </Row>
@@ -29,4 +29,4 @@ function About() {
   );
 }
 
-export default About;
+export default Contact;
