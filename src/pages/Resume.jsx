@@ -7,7 +7,8 @@ import Col from '../components/Col';
 function Resume() {
   return (
     <div>
-      <Hero backgroundImage="./poza.jpg">
+      <Hero >
+        <img src="src\assets\poza.jpg" alt="Profile Image" style={{ position: 'absolute', top: 0, left: 0, height: '100px', margin : '20px' }} />
         <h1>Cristian Bogdan</h1>
 
       </Hero>
@@ -20,7 +21,9 @@ function Resume() {
         <Row>
           <Col size="md-12">
             <p>
-              Resume here
+              <a href="https://docs.google.com/document/d/1mPC0MhqCIxqOWhFYE08GG1MoQ3n06ZUtWtfWRm85LCY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            Resume here
+              </a>
             </p>
           </Col>
         </Row>

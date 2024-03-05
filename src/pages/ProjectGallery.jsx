@@ -3,7 +3,7 @@ import Project from "./Projects";
 
 const ProjectGallery = ({ projects }) => {
   return (
-    <div>
+    <div >
       {projects.map((project, index) => (
         <Project key={index} project={project} />
       ))}

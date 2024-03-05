@@ -1,19 +1,19 @@
-import React from 'react';
-import Hero from '../components/Hero';
-import Container from '../components/Container';
-import Row from '../components/Row';
-import Col from '../components/Col';
+import React from "react";
+import Hero from "../components/Hero";
+import Container from "../components/Container";
+import Row from "../components/Row";
+import Col from "../components/Col";
 // import NavbarWork from '../components/NavbarWork';
-import ProjectGallery from './ProjectGallery';
+import ProjectGallery from "./ProjectGallery";
 // import Project from '../components/Project'
-import projectData from './projectData.json';
+import projectData from "./projectData.json";
 
 function Work() {
   return (
     <div>
-      <Hero backgroundImage="./poza.jpg">
+      <Hero>
+        <img src="src\assets\poza.jpg" alt="Profile Image" style={{ position: 'absolute', top: 0, left: 0, height: '100px', margin : '20px' }} />
         <h1>Cristian Bogdan</h1>
-
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
@@ -23,16 +23,13 @@ function Work() {
         </Row>
         <Row>
           <Col size="md-12">
-            <p>
-              projects
+            <div>
               <div>
-                <div>
-                  <h1>Project Gallery</h1>
-                  <ProjectGallery projects={projectData} />
-                </div>
+                
+                <ProjectGallery style={{ border: '1px solid black'}} projects={projectData} />
               </div>
-              {/* <NavbarWork /> */}
-            </p>
+            </div>
+            {/* <NavbarWork /> */}
           </Col>
         </Row>
       </Container>

@@ -9,9 +9,10 @@ import Card from '../components/Card';
 function Contact() {
   return (
     <div>
-      <Hero backgroundImage="./poza.jpg">
+      <Hero>
+        <img src="src\assets\poza.jpg" alt="Profile Image" style={{ position: 'absolute', top: 0, left: 0, height: '100px', margin : '20px' }} />
         <h1>Cristian Bogdan</h1>
-        <h5>Let's start something great. First, we will start with a contact</h5>
+        <h5>Let's start something great. First step is my contact</h5>
 
       </Hero>
       <Container style={{ marginTop: 30 }}>
@@ -29,8 +30,8 @@ function Contact() {
             <div className="col-sm-3">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">email</h5>
-                  <p className="card-text">docbogdanc@yahoo.com</p>
+                  <h5 className="card-title">Email</h5>
+                  <p className="card-text"><a href="mailto:docbogdanc@yahoo.com">docbogdanc@yahoo.com</a></p>
                 </div>
               </div>
             </div>

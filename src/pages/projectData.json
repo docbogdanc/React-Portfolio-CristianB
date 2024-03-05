@@ -1,8 +1,37 @@
 [
     {
-        "title": "one",
-        "deployedLink": "fdgdg",
-        "githubLink": "dfsf"
-
+        "title": "Professional README Generator - console app only (no deployed link)",
+        "deployedLink": "#",
+        "githubLink": "https://github.com/docbogdanc/Professional_README_Generator_CristianB.git"
+    },
+    {
+        "title": "Weather DashBoard",
+        "deployedLink": "https://docbogdanc.github.io/Weather-Dashboard-CristianB/",
+        "githubLink": "https://github.com/docbogdanc/Weather-Dashboard-CristianB.git"
+    },
+    {
+        "title": "Daily Planner App",
+        "deployedLink": "https://docbogdanc.github.io/Daily-Planner-App-CristianB/",
+        "githubLink": " https://github.com/docbogdanc/Daily-Planner-App-CristianB.git"
+    },
+    {
+        "title": "Code Quiz Application",
+        "deployedLink": "https://docbogdanc.github.io/Code-Quiz-CristianB/",
+        "githubLink": "https://github.com/docbogdanc/Code-Quiz-CristianB.git"
+    },
+    {
+        "title": "Password genarator tool ",
+        "deployedLink": "https://docbogdanc.github.io/Password-Generator-CristianB/",
+        "githubLink": "https://github.com/docbogdanc/Password-Generator-CristianB.git"
+    },
+    {
+        "title": "Code Quiz Application",
+        "deployedLink": "https://docbogdanc.github.io/Code-Quiz-CristianB/",
+        "githubLink": "https://github.com/docbogdanc/Code-Quiz-CristianB.git"
+    },
+    {
+        "title": "Team Profile Generator - console app only (no deployed link)",
+        "deployedLink": "#",
+        "githubLink": "https://github.com/docbogdanc/Team-Profile-Generator-CristianB.git"
     }
 ]
