@@ -3,8 +3,8 @@
   background-position: center;
   background-clip: content-box;
   border: 6px solid white;
-  min-height: 400px;
-  width: 400px;
+  height: 100px;
+  width: fit-content;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   position: relative;
   margin: 0 auto;
@@ -12,7 +12,7 @@
 }
 
 .card .fa-spinner {
-  font-size: 180px;
+  font-size: 100px;
   position: absolute;
   left: 25%;
   top: 25%;

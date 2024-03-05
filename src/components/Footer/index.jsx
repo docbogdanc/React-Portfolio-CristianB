@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>2024</span>
+      <span>Updated March 2024</span>
     </footer>
   );
 }

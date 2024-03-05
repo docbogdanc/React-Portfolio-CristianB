@@ -1,5 +1,5 @@
 .hero {
-  height: 250px;
+  height: 300px;
   background-image: url('./02-hero-bg.jpg');
   background-size: cover;
   background-position: center;
@@ -23,7 +23,7 @@
   z-index: 2;
 }
 
-.hero h1, .hero h2 {
+.hero h1, .hero h5, .hero h6 {
   color: white;
 }
 

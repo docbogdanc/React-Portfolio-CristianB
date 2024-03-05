@@ -9,6 +9,8 @@ function About() {
     <div>
       <Hero>
         <h1>Cristian Bogdan</h1>
+        <h5>"The secret of making progress is to get started"</h5>
+        <h6> - Mark Twain -</h6>
 
       </Hero>
       <Container style={{ marginTop: 30 }}>
@@ -20,7 +22,7 @@ function About() {
         <Row>
           <Col size="md-12">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, quis! Necessitatibus culpa minima laudantium praesentium aspernatur fugit modi perferendis eligendi quidem distinctio natus suscipit pariatur, aliquid dolorum nesciunt alias iure?
             </p>
           </Col>
         </Row>
