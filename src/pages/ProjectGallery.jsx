@@ -1,12 +1,32 @@
 import React from "react";
 import Project from "./Projects";
+import { Link, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SingleProject from "./SingleProject";
+import Projects from "./Projects";
+import projectData from "./projectData.json";
+import OneProject from "./EachProject";
 
 const ProjectGallery = ({ projects }) => {
   return (
-    <div >
-      {projects.map((project, index) => (
-        <Project key={index} project={project} />
-      ))}
+   <div>
+      <ul>
+        {projects.map(project => (
+          <li key={project.id}>
+            <Link to={`${project.id}`}>{project.title}</Link>
+          </li>
+        ))}
+      </ul>
+      <Link to="work" role="button" className="btn btn-link">
+        Show Less
+      </Link>
+      <Routes>
+        <Route path="1" element={<OneProject index={0}/>} />
+        <Route path="2" element={<OneProject index={1}/>} />
+        <Route path="3" element={<OneProject index={2}/>} />
+        <Route path="4" element={<OneProject index={3}/>} />
+        <Route path="5" element={<OneProject index={4}/>} />
+        <Route path="6" element={<OneProject index={5}/>} />
+      </Routes>     
     </div>
   );
 };

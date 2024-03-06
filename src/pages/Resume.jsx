@@ -15,11 +15,6 @@ function Resume() {
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>Welcome To My page!</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
             <p>
               <a href="https://docs.google.com/document/d/1mPC0MhqCIxqOWhFYE08GG1MoQ3n06ZUtWtfWRm85LCY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
             Resume here

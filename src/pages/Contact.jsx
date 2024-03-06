@@ -19,7 +19,7 @@ function Contact() {
         <Row>
           <div className="row">
             <div className="col-sm-3 mb-3 mb-sm-0">
-              <div className="card">
+              <div className="card" style={{ border: '1px solid black' , marginTop : '10px', padding : '10px', backgroundColor : '#f4f3ef'}}>
                 <div className="card-body">
                   <h5 className="card-title">Phone</h5>
                   <p className="card-text">0712341234</p>
@@ -28,7 +28,7 @@ function Contact() {
             </div>
 
             <div className="col-sm-3">
-              <div className="card">
+              <div className="card" style={{ border: '1px solid black' , marginTop : '10px', padding : '10px', backgroundColor : '#f4f3ef'}}>
                 <div className="card-body">
                   <h5 className="card-title">Email</h5>
                   <p className="card-text"><a href="mailto:docbogdanc@yahoo.com">docbogdanc@yahoo.com</a></p>
@@ -36,8 +36,8 @@ function Contact() {
               </div>
             </div>
           
-          <div className="col-sm-3">
-              <div className="card">
+          <div className="col-sm-3" >
+              <div className="card" style={{ border: '1px solid black' , marginTop : '10px', padding : '10px', backgroundColor : '#f4f3ef'}}>
                 <div className="card-body">
                   <h5 className="card-title">GitHub</h5>
                   <p className="card-text"><a href="https://github.com/docbogdanc/">docbogdanc</a></p>
@@ -45,8 +45,8 @@ function Contact() {
               </div>
             </div>
           
-          <div className="col-sm-3">
-              <div className="card">
+          <div className="col-sm-3" >
+              <div className="card" style={{ border: '1px solid black' , marginTop : '10px', padding : '10px', backgroundColor : '#f4f3ef'}}>
                 <div className="card-body">
                   <h5 className="card-title">LinkedIn</h5>
                   <p className="card-text"><a href="https://www.linkedin.com/in/cristian-b-2799862b8/">CristianB</a></p>

@@ -1,14 +1,13 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React from "react";
+import Project from "./Projects";
+import { Link, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SingleProject from "./SingleProject";
+import Projects from "./Projects";
+import projectData from "./projectData.json";
 
-const Projects = ({ projects }) => {
-  const { projectId } = useParams();
-  const selectedProject = projects.find(project => project.id === parseInt(projectId));
 
-  if (!selectedProject) {
-    return <div>Project not found</div>;
-  }
-
+function OneProject (props) {
+    const selectedProject = projectData[props.index]
   return (
     <div className='row' style={{ border: '1px solid black', marginTop: '10px', padding: '10px', backgroundColor: '#f4f3ef' }}>
       <div className='col-6 col-sm-4'>
@@ -25,4 +24,4 @@ const Projects = ({ projects }) => {
   );
 };
 
-export default Projects;
+export default OneProject;

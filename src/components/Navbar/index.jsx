@@ -5,7 +5,7 @@ import './style.css';
 
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs" style={{ border: '1px solid black' , marginTop : '10px', padding : '10px', backgroundColor : '#f4f3ef'}}>
       <li className="nav-item">
         <NavLink
           to="/"

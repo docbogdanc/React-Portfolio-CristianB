@@ -1,12 +1,13 @@
 import React from "react";
+import { Routes, Route } from 'react-router-dom';
 import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-// import NavbarWork from '../components/NavbarWork';
 import ProjectGallery from "./ProjectGallery";
-// import Project from '../components/Project'
 import projectData from "./projectData.json";
+import Projects from "./Projects"
+import SingleProject from "./SingleProject";
 
 function Work() {
   return (
@@ -14,22 +15,22 @@ function Work() {
       <Hero>
         <img src="src\assets\poza.jpg" alt="Profile Image" style={{ position: 'absolute', top: 0, left: 0, height: '100px', margin : '20px' }} />
         <h1>Cristian Bogdan</h1>
+        <h3>Some projects of mine :</h3>
+
       </Hero>
       <Container style={{ marginTop: 30 }}>
-        <Row>
-          <Col size="md-12">
-            <h1>Some projects of mine :</h1>
-          </Col>
-        </Row>
+
         <Row>
           <Col size="md-12">
             <div>
               <div>
-                
-                <ProjectGallery style={{ border: '1px solid black'}} projects={projectData} />
+                <Routes>
+                  <Route path="*" element={<ProjectGallery projects={projectData} />} />
+                  <Route to="proj" element={<Projects projects={projectData} />} />
+
+                </Routes>
               </div>
             </div>
-            {/* <NavbarWork /> */}
           </Col>
         </Row>
       </Container>
