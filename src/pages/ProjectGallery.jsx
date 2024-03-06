@@ -1,7 +1,6 @@
 import React from "react";
 import Project from "./Projects";
 import { Link, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import SingleProject from "./SingleProject";
 import Projects from "./Projects";
 import projectData from "./projectData.json";
 import OneProject from "./EachProject";
@@ -9,10 +8,10 @@ import OneProject from "./EachProject";
 const ProjectGallery = ({ projects }) => {
   return (
    <div>
-      <ul>
+      <ul >
         {projects.map(project => (
-          <li key={project.id}>
-            <Link to={`${project.id}`}>{project.title}</Link>
+          <li key={project.id}  style={{ border: '1px solid black', marginTop: '10px', padding: '10px', backgroundColor: '#f4f3ef' }}>
+            <Link to={`${project.id}`}  style={{ color: 'black', fontWeight: 'bold' }}>{project.title}</Link>
           </li>
         ))}
       </ul>

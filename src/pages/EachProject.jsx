@@ -1,7 +1,6 @@
 import React from "react";
 import Project from "./Projects";
 import { Link, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import SingleProject from "./SingleProject";
 import Projects from "./Projects";
 import projectData from "./projectData.json";
 

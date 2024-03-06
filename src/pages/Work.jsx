@@ -7,7 +7,7 @@ import Col from "../components/Col";
 import ProjectGallery from "./ProjectGallery";
 import projectData from "./projectData.json";
 import Projects from "./Projects"
-import SingleProject from "./SingleProject";
+
 
 function Work() {
   return (
