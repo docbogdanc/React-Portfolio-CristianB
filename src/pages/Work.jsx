@@ -13,7 +13,7 @@ function Work() {
   return (
     <div>
       <Hero>
-        <img src="src\assets\poza.jpg" alt="Profile Image" style={{ position: 'absolute', top: 0, left: 0, height: '100px', margin : '20px' }} />
+        <img src="https://github.com/docbogdanc/Bootstrap-Portfolio-CristianB/blob/main/images/poza.jpg" alt="Profile Image" style={{ position: 'absolute', top: 0, left: 0, height: '100px', margin : '20px' }} />
         <h1>Cristian Bogdan</h1>
         <h3>Some projects of mine :</h3>
 
