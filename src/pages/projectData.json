@@ -1,4 +1,19 @@
 [
+    
+    {
+        "id" : "7",
+        "img" : "https://github.com/docbogdanc/Professional_README_Generator_CristianB/raw/main/assets/easylearningtogether",
+        "title": "Easy Learning Together",
+        "deployedLink": "https://easylearningtogether.com/",
+        "githubLink": "https:/github.com/docbogdanc/SmartEducationCrisB.git"
+    },
+    {
+        "id" : "8",
+        "img" : "https://github.com/docbogdanc/Professional_README_Generator_CristianB/raw/main/assets/mysmarterlife1.png",
+        "title": "My Smarter Life",
+        "deployedLink": "https://docbogdanc.github.io/mysmarterlife/",
+        "githubLink": "https://github.com/docbogdanc/mysmarterlife.git"
+    },
     {
         "id" : "1",
         "img" : "https://github.com/docbogdanc/Professional_README_Generator_CristianB/raw/main/assets/screenshot1.png",
@@ -30,7 +45,7 @@
     {
         "id" : "5",
         "img" : "https://github.com/docbogdanc/Password-Generator-CristianB/raw/main/images/screenshot.png",
-        "title": "Password genarator tool ",
+        "title": "Password generator tool ",
         "deployedLink": "https://docbogdanc.github.io/Password-Generator-CristianB/",
         "githubLink": "https://github.com/docbogdanc/Password-Generator-CristianB.git"
     },

@@ -23,7 +23,7 @@ function About() {
         <Row>
           <Col size="md-12">
             <p>
-              This is my window to the world
+            Navigating the Digital Cosmos, One Line of Code at a Time
             </p>
           </Col>
         </Row>

@@ -23,7 +23,7 @@ function About() {
         <Row>
           <Col size="md-12">
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, quis! Necessitatibus culpa minima laudantium praesentium aspernatur fugit modi perferendis eligendi quidem distinctio natus suscipit pariatur, aliquid dolorum nesciunt alias iure?
+            I am embarking on an exciting journey, transitioning from a successful medical career into software and web development. This transition is fuelled by my passion for innovation and a desire to revolutionize healthcare through technology. With a background in medicine, I hope to bring a unique perspective to the world of software development.
             </p>
           </Col>
         </Row>
