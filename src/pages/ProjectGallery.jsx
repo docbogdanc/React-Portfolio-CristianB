@@ -27,6 +27,8 @@ const ProjectGallery = ({ projects }) => {
         <Route path="6" element={<OneProject index={5}/>} />
         <Route path="7" element={<OneProject index={6}/>} />
         <Route path="8" element={<OneProject index={7}/>} />
+        <Route path="9" element={<OneProject index={8}/>} />
+
       </Routes>     
     </div>
   );
