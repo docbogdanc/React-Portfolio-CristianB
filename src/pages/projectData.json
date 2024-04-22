@@ -1,19 +1,4 @@
 [
-    
-    {
-        "id" : "7",
-        "img" : "https://github.com/docbogdanc/Professional_README_Generator_CristianB/raw/main/assets/easylearningtogether",
-        "title": "Easy Learning Together",
-        "deployedLink": "https://easylearningtogether.com/",
-        "githubLink": "https:/github.com/docbogdanc/SmartEducationCrisB.git"
-    },
-    {
-        "id" : "8",
-        "img" : "https://github.com/docbogdanc/Professional_README_Generator_CristianB/raw/main/assets/mysmarterlife1.png",
-        "title": "My Smarter Life",
-        "deployedLink": "https://docbogdanc.github.io/mysmarterlife/",
-        "githubLink": "https://github.com/docbogdanc/mysmarterlife.git"
-    },
     {
         "id" : "1",
         "img" : "https://github.com/docbogdanc/Professional_README_Generator_CristianB/raw/main/assets/screenshot1.png",
@@ -55,5 +40,26 @@
         "title": "Team Profile Generator - console app only (no deployed link)",
         "deployedLink": "#",
         "githubLink": "https://github.com/docbogdanc/Team-Profile-Generator-CristianB.git"
+    },
+    {
+        "id" : "7",
+        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/easylearningtogether.png",
+        "title": "Easy Learning Together",
+        "deployedLink": "https://easylearningtogether.com/",
+        "githubLink": "https:/github.com/docbogdanc/SmartEducationCrisB.git"
+    },
+    {
+        "id" : "8",
+        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/mysmarterife1.png",
+        "title": "My Smarter Life",
+        "deployedLink": "https://docbogdanc.github.io/mysmarterlife/",
+        "githubLink": "https://github.com/docbogdanc/mysmarterlife.git"
+    },
+    {
+        "id" : "9",
+        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/oxfamgiftaid.png",
+        "title": "Oxfam GiftAid Logger",
+        "deployedLink": "https://oxfam-logger-enhanced.netlify.app/",
+        "githubLink": "https://github.com/Oxfam-Data-Insight-Netninjas-ODIN/oxfam-giftaid-logger-enhanced.git"
     }
 ]
