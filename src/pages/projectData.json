@@ -1,35 +1,44 @@
 [
+
     {
         "id" : "9",
         "rank": "Nine",
-        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/oxfamgiftaid.png",
-        "title": "Oxfam GiftAid Logger",
-        "deployedLink": "https://oxfam-logger-enhanced.netlify.app/",
-        "githubLink": "https://github.com/Oxfam-Data-Insight-Netninjas-ODIN/oxfam-giftaid-logger-enhanced.git"
+        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/easylearningtogether.png?raw=true",
+        "title": "Easy Learning Together",
+        "deployedLink": "https://easylearningtogether.com/",
+        "githubLink": "https:/github.com/docbogdanc/SmartEducationCrisB.git",
+        "description1": "Personal project, build mainly with ReactJs and deployed on one of my personal domain",
+        "description2": "Aiming to develop an education program for elementar mathematics"
     },
     {
         "id" : "8",
         "rank": "Eight",
-        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/mysmarterife1.png",
+        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/mysmarterife1.png?raw=true",
         "title": "My Smarter Life",
         "deployedLink": "https://docbogdanc.github.io/mysmarterlife/",
-        "githubLink": "https://github.com/docbogdanc/mysmarterlife.git"
+        "githubLink": "https://github.com/docbogdanc/mysmarterlife.git",
+        "description1": "Personal project, build mainly with JavaScript and JQuery",
+        "description2": "Aiming to develop an education program for elementar mathematics"
     },
     {
         "id" : "7",
         "rank": "Seven",
-        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/easylearningtogether.png",
-        "title": "Easy Learning Together",
-        "deployedLink": "https://easylearningtogether.com/",
-        "githubLink": "https:/github.com/docbogdanc/SmartEducationCrisB.git"
+        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/oxfamgiftaid.png?raw=true",
+        "title": "Oxfam GiftAid Logger",
+        "deployedLink": "https://oxfam-logger-enhanced.netlify.app/",
+        "githubLink": "https://github.com/Oxfam-Data-Insight-Netninjas-ODIN/oxfam-giftaid-logger-enhanced.git",
+        "description1": "This Project was created for bootcamp group challenge - I was responsible of back-end (including Firebase Database); deployed on Netlify",
+        "description2": "Focused on using React, Node and Firebase, for the creation of dynamic user interfaces in order to streamline the development process by providing reusable components, modular code structure, and efficient server-side rendering using React's virtual DOM that enables better performance, and scalability"
     },
     {
         "id" : "6",
         "rank": "Six",
         "img" : "https://github.com/docbogdanc/Team-Profile-Generator-CristianB/raw/main/assets/team_screen.png",
-        "title": "Team Profile Generator - console app only (no deployed link)",
+        "title": "Team Profile Generator",
         "deployedLink": "#",
-        "githubLink": "https://github.com/docbogdanc/Team-Profile-Generator-CristianB.git"
+        "githubLink": "https://github.com/docbogdanc/Team-Profile-Generator-CristianB.git",
+        "description1": "This Project was created for bootcamp challenge. NodeJS, NPMs, Jest, Constructors and Classes, JavaScript and JQuery",
+        "description2": "It is a Node.js command-line application that takes the user input about employees on a software engineering team, then generate an HTML webpage that displays summaries for each person. There is no diplay link as it is only a console app"
     },
     {
         "id" : "5",
@@ -37,7 +46,9 @@
         "img" : "https://github.com/docbogdanc/Password-Generator-CristianB/raw/main/images/screenshot.png",
         "title": "Password generator tool ",
         "deployedLink": "https://docbogdanc.github.io/Password-Generator-CristianB/",
-        "githubLink": "https://github.com/docbogdanc/Password-Generator-CristianB.git"
+        "githubLink": "https://github.com/docbogdanc/Password-Generator-CristianB.git",
+        "description1": "This Project was created for bootcamp challenge. Focus on Javascript.",
+        "description2": "It is generating a password according to user choice's character types and length."
     },
     {
         "id" : "4",
@@ -45,7 +56,9 @@
         "img" : "https://github.com/docbogdanc/Code-Quiz-CristianB/raw/main/assets/images/question.png",
         "title": "Code Quiz Application",
         "deployedLink": "https://docbogdanc.github.io/Code-Quiz-CristianB/",
-        "githubLink": "https://github.com/docbogdanc/Code-Quiz-CristianB.git"
+        "githubLink": "https://github.com/docbogdanc/Code-Quiz-CristianB.git",
+        "description1": "This Project was created for bootcamp challenge. Focus on HTML, CSS and JavaScript",
+        "description2": "It takes an array of objects as questions with one possible correct answer and create a nice webpage that interact with the user, calculate user correct answers to the displayed question and display the high score at the end. The interaction is timed on timer and every wrong answer penalised the user with 10 seconds"
     },
     {
         "id" : "3",
@@ -53,7 +66,9 @@
         "img" : "https://github.com/docbogdanc/Daily-Planner-App-CristianB/raw/main/assets/images/screenshot_planner.png",
         "title": "Daily Planner App",
         "deployedLink": "https://docbogdanc.github.io/Daily-Planner-App-CristianB/",
-        "githubLink": " https://github.com/docbogdanc/Daily-Planner-App-CristianB.git"
+        "githubLink": " https://github.com/docbogdanc/Daily-Planner-App-CristianB.git",
+        "description1": "This Project was created for bootcamp challenge. Focus on  HTML, CSS, JavaScript, JQuery, and Dayjs",
+        "description2": "The user is able to add text in every hour slots and by pressing the right 'floppydisk' icon the data is saved in the local storage to stay even if the page is refreshed. The current time slot is marked with red color and the future time-slots are colored green."
     },
     {
         "id" : "2",
@@ -61,14 +76,18 @@
         "img" : "https://github.com/docbogdanc/Weather-Dashboard-CristianB/raw/main/assets/images/screenshot.png",
         "title": "Weather DashBoard",
         "deployedLink": "https://docbogdanc.github.io/Weather-Dashboard-CristianB/",
-        "githubLink": "https://github.com/docbogdanc/Weather-Dashboard-CristianB.git"
+        "githubLink": "https://github.com/docbogdanc/Weather-Dashboard-CristianB.git",
+        "description1": "This Project was created for bootcamp challenge. Focus on HTML, CSS, JavaScript, JQuery, Dayjs and API",
+        "description2": "It takes the user input and is using API to fetch weather data from https://openweathermap.org/ . It is displaying the temperature, humidity and wind speed for the current day and the forecast weather for next 5 days. The searched city is displayed bellow the search box and the display history persist if the page is refreshed."
     },
     {
         "id" : "1",
         "rank": "One",
         "img" : "https://github.com/docbogdanc/Professional_README_Generator_CristianB/raw/main/assets/screenshot1.png",
-        "title": "Professional README Generator - console app only (no deployed link)",
+        "title": "Professional README Generator",
         "deployedLink": "#",
-        "githubLink": "https://github.com/docbogdanc/Professional_README_Generator_CristianB.git"
+        "githubLink": "https://github.com/docbogdanc/Professional_README_Generator_CristianB.git",
+        "description1": "This Project was created for bootcamp challenge. focus on NodeJS, JavaScript and JQuery",
+        "description2": "It takes the user input in the terminal using nodejs and 'inquirer' NPM, then it use the answers to create a file and generate the content in the format of a README.md file - console app only (no deployed link)"
     }    
 ]
