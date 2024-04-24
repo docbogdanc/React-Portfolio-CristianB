@@ -1,65 +1,74 @@
 [
     {
-        "id" : "1",
-        "img" : "https://github.com/docbogdanc/Professional_README_Generator_CristianB/raw/main/assets/screenshot1.png",
-        "title": "Professional README Generator - console app only (no deployed link)",
-        "deployedLink": "#",
-        "githubLink": "https://github.com/docbogdanc/Professional_README_Generator_CristianB.git"
-    },
-    {
-        "id" : "2",
-        "img" : "https://github.com/docbogdanc/Weather-Dashboard-CristianB/raw/main/assets/images/screenshot.png",
-        "title": "Weather DashBoard",
-        "deployedLink": "https://docbogdanc.github.io/Weather-Dashboard-CristianB/",
-        "githubLink": "https://github.com/docbogdanc/Weather-Dashboard-CristianB.git"
-    },
-    {
-        "id" : "3",
-        "img" : "https://github.com/docbogdanc/Daily-Planner-App-CristianB/raw/main/assets/images/screenshot_planner.png",
-        "title": "Daily Planner App",
-        "deployedLink": "https://docbogdanc.github.io/Daily-Planner-App-CristianB/",
-        "githubLink": " https://github.com/docbogdanc/Daily-Planner-App-CristianB.git"
-    },
-    {
-        "id" : "4",
-        "img" : "https://github.com/docbogdanc/Code-Quiz-CristianB/raw/main/assets/images/question.png",
-        "title": "Code Quiz Application",
-        "deployedLink": "https://docbogdanc.github.io/Code-Quiz-CristianB/",
-        "githubLink": "https://github.com/docbogdanc/Code-Quiz-CristianB.git"
-    },
-    {
-        "id" : "5",
-        "img" : "https://github.com/docbogdanc/Password-Generator-CristianB/raw/main/images/screenshot.png",
-        "title": "Password generator tool ",
-        "deployedLink": "https://docbogdanc.github.io/Password-Generator-CristianB/",
-        "githubLink": "https://github.com/docbogdanc/Password-Generator-CristianB.git"
-    },
-    {
-        "id" : "6",
-        "img" : "https://github.com/docbogdanc/Team-Profile-Generator-CristianB/raw/main/assets/team_screen.png",
-        "title": "Team Profile Generator - console app only (no deployed link)",
-        "deployedLink": "#",
-        "githubLink": "https://github.com/docbogdanc/Team-Profile-Generator-CristianB.git"
-    },
-    {
-        "id" : "7",
-        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/easylearningtogether.png",
-        "title": "Easy Learning Together",
-        "deployedLink": "https://easylearningtogether.com/",
-        "githubLink": "https:/github.com/docbogdanc/SmartEducationCrisB.git"
+        "id" : "9",
+        "rank": "Nine",
+        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/oxfamgiftaid.png",
+        "title": "Oxfam GiftAid Logger",
+        "deployedLink": "https://oxfam-logger-enhanced.netlify.app/",
+        "githubLink": "https://github.com/Oxfam-Data-Insight-Netninjas-ODIN/oxfam-giftaid-logger-enhanced.git"
     },
     {
         "id" : "8",
+        "rank": "Eight",
         "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/mysmarterife1.png",
         "title": "My Smarter Life",
         "deployedLink": "https://docbogdanc.github.io/mysmarterlife/",
         "githubLink": "https://github.com/docbogdanc/mysmarterlife.git"
     },
     {
-        "id" : "9",
-        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/oxfamgiftaid.png",
-        "title": "Oxfam GiftAid Logger",
-        "deployedLink": "https://oxfam-logger-enhanced.netlify.app/",
-        "githubLink": "https://github.com/Oxfam-Data-Insight-Netninjas-ODIN/oxfam-giftaid-logger-enhanced.git"
-    }
+        "id" : "7",
+        "rank": "Seven",
+        "img" : "https://github.com/docbogdanc/React-Portfolio-CristianB/blob/main/src/assets/easylearningtogether.png",
+        "title": "Easy Learning Together",
+        "deployedLink": "https://easylearningtogether.com/",
+        "githubLink": "https:/github.com/docbogdanc/SmartEducationCrisB.git"
+    },
+    {
+        "id" : "6",
+        "rank": "Six",
+        "img" : "https://github.com/docbogdanc/Team-Profile-Generator-CristianB/raw/main/assets/team_screen.png",
+        "title": "Team Profile Generator - console app only (no deployed link)",
+        "deployedLink": "#",
+        "githubLink": "https://github.com/docbogdanc/Team-Profile-Generator-CristianB.git"
+    },
+    {
+        "id" : "5",
+        "rank": "Five",
+        "img" : "https://github.com/docbogdanc/Password-Generator-CristianB/raw/main/images/screenshot.png",
+        "title": "Password generator tool ",
+        "deployedLink": "https://docbogdanc.github.io/Password-Generator-CristianB/",
+        "githubLink": "https://github.com/docbogdanc/Password-Generator-CristianB.git"
+    },
+    {
+        "id" : "4",
+        "rank": "Four",
+        "img" : "https://github.com/docbogdanc/Code-Quiz-CristianB/raw/main/assets/images/question.png",
+        "title": "Code Quiz Application",
+        "deployedLink": "https://docbogdanc.github.io/Code-Quiz-CristianB/",
+        "githubLink": "https://github.com/docbogdanc/Code-Quiz-CristianB.git"
+    },
+    {
+        "id" : "3",
+        "rank": "Three",
+        "img" : "https://github.com/docbogdanc/Daily-Planner-App-CristianB/raw/main/assets/images/screenshot_planner.png",
+        "title": "Daily Planner App",
+        "deployedLink": "https://docbogdanc.github.io/Daily-Planner-App-CristianB/",
+        "githubLink": " https://github.com/docbogdanc/Daily-Planner-App-CristianB.git"
+    },
+    {
+        "id" : "2",
+        "rank": "Two",
+        "img" : "https://github.com/docbogdanc/Weather-Dashboard-CristianB/raw/main/assets/images/screenshot.png",
+        "title": "Weather DashBoard",
+        "deployedLink": "https://docbogdanc.github.io/Weather-Dashboard-CristianB/",
+        "githubLink": "https://github.com/docbogdanc/Weather-Dashboard-CristianB.git"
+    },
+    {
+        "id" : "1",
+        "rank": "One",
+        "img" : "https://github.com/docbogdanc/Professional_README_Generator_CristianB/raw/main/assets/screenshot1.png",
+        "title": "Professional README Generator - console app only (no deployed link)",
+        "deployedLink": "#",
+        "githubLink": "https://github.com/docbogdanc/Professional_README_Generator_CristianB.git"
+    }    
 ]

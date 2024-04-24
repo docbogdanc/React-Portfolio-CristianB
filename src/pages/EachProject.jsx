@@ -21,6 +21,6 @@ function OneProject (props) {
       </div>
     </div>
   );
-};
+}
 
 export default OneProject;
